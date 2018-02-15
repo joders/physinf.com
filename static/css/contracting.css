@@ -1,0 +1,21 @@
+/*.myPieChart
+{
+    on_uncollapse: new d3pie
+}*/
+
+a {
+    color:blue
+}
+
+@mixin hover() {
+  .md-no-touch &:hover {
+    @content;
+  }
+}
+
+.md-button {
+  @include hover {
+    // hover styles
+  }
+}
+

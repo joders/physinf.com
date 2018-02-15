@@ -1,0 +1,21 @@
+.disChIconCon {
+    position:relative;
+    display:none;
+    height:100%;
+}
+.disChBackground {
+    height:100%;
+    position:relative;
+    display:none;
+}
+.disChCover {
+    height:100%;
+    position:absolute;
+    top:0px;
+    left:0px;
+    visibility:hidden;
+    display:none;
+}
+body {
+    font-family: Trebuchet MS
+}
